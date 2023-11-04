@@ -1,0 +1,39 @@
+.logo {
+  background-color: red;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.appBar {
+  background: transparent;
+  width: auto;
+  border-radius: 1vh;
+}
+
+.image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.muiButton {
+  color: red;
+  background-color: red;
+}
+
+.horMenu {
+  background-color: gray;
+  /* height: 7vh;
+  width: 55vw; */
+}
+
+.menuBar {
+  background-color: transparent;
+  font-weight: bolder;
+}
+
+.btnD {
+  border-bottom: 2px solid red;
+}

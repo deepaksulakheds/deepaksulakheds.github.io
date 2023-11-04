@@ -1,0 +1,40 @@
+.skillsTitle {
+  margin-left: 8vw;
+}
+
+.skillContainer {
+  /* background-color: red; */
+  /* height: 10vh; */
+  width: 90vw;
+  gap: 3vh;
+  margin-left: 8vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subSkill {
+  padding: 2vh;
+  outline: 1.5px solid white;
+  height: 100%;
+  border-radius: 1vh;
+  width: 13vw;
+  min-width: 100px;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.075);
+}
+
+.skill {
+  outline: 1px solid lightgray;
+  padding: 8px;
+  margin: 0;
+  border-radius: 0.5vh;
+}
+
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: white;
+}

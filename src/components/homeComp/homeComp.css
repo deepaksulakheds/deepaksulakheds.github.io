@@ -1,0 +1,97 @@
+.homeContainer {
+  display: flex;
+  margin-top: 5vh;
+  transition: all ease-in-out 0.2s;
+}
+
+.titleCard {
+  display: flex;
+  width: 100%;
+  min-width: 500px;
+  border-radius: 10px;
+  /* background: rgba(255, 255, 255, 0.35);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border: 2px solid rgba(224, 221, 221, 0.753); */
+}
+
+.nameNDesc {
+  align-self: center;
+  margin: 2vh;
+}
+.profileImage {
+  height: 120px;
+  margin: 2vh;
+  border-radius: 50%;
+  outline: 2px solid white;
+  background-color: white;
+}
+
+.jobTitle {
+  text-indent: 5px;
+  margin: 0;
+  text-wrap: nowrap;
+}
+
+.colorName {
+  color: aqua;
+  text-wrap: nowrap;
+  font-size: clamp(2.5rem, 2rem, 4rem);
+  font-weight: bold;
+}
+
+.about {
+  margin: 2vh;
+}
+
+.mediaLinks {
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  transition: all ease-in-out 0.2s;
+}
+
+.icons {
+  color: white;
+  padding: 1.2vh;
+  border-radius: 50%;
+  outline: 3px solid white;
+  transition: all ease-in-out 0.2s;
+}
+
+.icons:hover {
+  background-color: aqua;
+  color: black;
+  cursor: pointer;
+  outline: aqua;
+  transition: all ease-in-out 0.2s;
+}
+
+.midContainer {
+  width: 68%;
+  margin-left: 5vw;
+}
+
+.selfPic {
+  aspect-ratio: auto;
+  margin-left: 5vw;
+  margin-top: -5vh;
+  filter: brightness(0.95);
+}
+
+.downloadBtn {
+  color: aqua;
+  outline: 2px solid aqua;
+  padding: 0.8vh 2vh 0.8vh 2vh;
+  text-wrap: auto;
+  border-radius: 5px;
+  transition: all ease-in-out 0.2s;
+  margin-left: 4vw;
+  font-weight: bold;
+}
+
+.downloadBtn:hover {
+  background-color: aqua;
+  color: black;
+}

@@ -1,0 +1,15 @@
+.projects {
+  display: flex;
+  width: auto;
+  gap: 3vh;
+  margin-left: 8vw;
+}
+
+.projectTitle {
+  margin-left: 8vw;
+}
+
+.cardAction:hover {
+  color: lightblue;
+  /* background-color: aqua; */
+}
