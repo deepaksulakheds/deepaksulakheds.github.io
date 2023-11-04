@@ -1,8 +1,9 @@
 .projects {
-  display: flex;
-  width: auto;
+  width: 70vw;
   gap: 3vh;
   margin-left: 8vw;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .projectTitle {
@@ -11,5 +12,4 @@
 
 .cardAction:hover {
   color: lightblue;
-  /* background-color: aqua; */
 }

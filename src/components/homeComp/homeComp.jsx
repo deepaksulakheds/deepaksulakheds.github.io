@@ -51,7 +51,7 @@ export function HomeComp() {
           Download CV
         </a>
       </Grid>
-      <CustomTimeline />
+      {/* <CustomTimeline /> */}
     </Grid>
   );
 }

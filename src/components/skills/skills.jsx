@@ -27,17 +27,17 @@ const skills = [
   {
     title: "Database",
     list: [
-      { content: "MySQL", icon: null },
-      { content: "MongoDB", icon: null },
-      { content: "PostgresSQL", icon: null },
-      { content: "Redis", icon: null },
+      { content: "MySQL", icon: "/mysql.png" },
+      { content: "MongoDB", icon: "/mongoDB.png" },
+      { content: "PostgresSQL", icon: "/postgresql.png" },
+      { content: "Redis", icon: "/redis.png" },
     ],
   },
   {
     title: "Others",
     list: [
-      { content: "Git & Github", icon: null },
-      { content: "ApolloServer", icon: null },
+      { content: "Git & Github", icon: "/git.png" },
+      { content: "ApolloServer", icon: "/apollo.png" },
     ],
   },
 ];
@@ -46,7 +46,6 @@ export function Skills(props) {
   return (
     <>
       <h2 className="skillsTitle">Skills</h2>
-
       <div className="skillContainer">
         {skills.map((skill, index) => (
           <div key={index} className="subSkill">
