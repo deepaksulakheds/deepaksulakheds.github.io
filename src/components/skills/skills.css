@@ -27,9 +27,11 @@
 
 .skill {
   outline: 1px solid lightgray;
-  padding: 8px;
+  padding: 7px;
+  display: flex;
   margin: 0;
   border-radius: 0.5vh;
+  text-align: center;
 }
 
 .skillList {
@@ -37,4 +39,15 @@
   flex-wrap: wrap;
   gap: 12px;
   color: white;
+}
+
+.skillIcon {
+  height: fit-content;
+  width: fit-content;
+  margin-right: 4px;
+  align-self: center;
+}
+
+.skillContent {
+  margin: auto;
 }

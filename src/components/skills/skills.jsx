@@ -2,14 +2,44 @@ import React from "react";
 import "./skills.css";
 const colors = ["#800080", "#91915f", "#008000", "#43c1c1"];
 const skills = [
-  { title: "Frontend", list: ["HTML", "CSS", "Bootstrap", "React", "MUI"] },
+  {
+    title: "Frontend",
+    list: [
+      { content: "HTML", icon: "/html.png" },
+      { content: "CSS", icon: "/CSS.png" },
+      { content: "Bootstrap", icon: "/bootstrap.png" },
+      { content: "React", icon: "/react.png" },
+      { content: "MUI", icon: "/mui.png" },
+    ],
+  },
   {
     title: "Backend",
-    list: ["C/C++", "Java", "NodeJS", "GraphQL", "Python"],
+    list: [
+      { content: "C/C++", icon: "/c.png" },
+      { content: "Java", icon: "/java.png" },
+      { content: "JavaScript", icon: "/javascript.png" },
+      { content: "Node JS", icon: "/nodejs.png" },
+      { content: "GraphQL", icon: "/graphql.png" },
+      { content: "Python", icon: "/python.png" },
+    ],
   },
 
-  { title: "Database", list: ["MySQL", "MongoDB", "PostgresSQL", "Redis"] },
-  { title: "Others", list: ["Git & Github", "ApolloServer"] },
+  {
+    title: "Database",
+    list: [
+      { content: "MySQL", icon: null },
+      { content: "MongoDB", icon: null },
+      { content: "PostgresSQL", icon: null },
+      { content: "Redis", icon: null },
+    ],
+  },
+  {
+    title: "Others",
+    list: [
+      { content: "Git & Github", icon: null },
+      { content: "ApolloServer", icon: null },
+    ],
+  },
 ];
 
 export function Skills(props) {
@@ -25,9 +55,10 @@ export function Skills(props) {
             </h2>
             <div className="skillList">
               {skill.list.map((s) => (
-                <p key={s} className="skill">
-                  {s}
-                </p>
+                <div key={s.content} className="skill">
+                  <img src={s.icon} className="skillIcon" />
+                  <p className="skillContent">{s.content}</p>
+                </div>
               ))}
             </div>
           </div>
