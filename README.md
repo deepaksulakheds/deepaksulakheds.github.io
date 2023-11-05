@@ -1,5 +1,9 @@
 # React + Vite
 
+## prerequisites
+
+### `node -> 18.18.2`
+
 ## Available Scripts
 
 In the project directory, you can run:
