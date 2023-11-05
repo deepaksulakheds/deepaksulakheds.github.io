@@ -55,7 +55,12 @@ export function Skills(props) {
             <div className="skillList">
               {skill.list.map((s) => (
                 <div key={s.content} className="skill">
-                  <img src={s.icon} className="skillIcon" />
+                  <img
+                    src={s.icon}
+                    className="skillIcon"
+                    height="32"
+                    width="32"
+                  />
                   <p className="skillContent">{s.content}</p>
                 </div>
               ))}

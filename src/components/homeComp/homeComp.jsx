@@ -45,13 +45,16 @@ export function HomeComp() {
         <h2 className="about">
           Seeking an entry level position in an organization that offers good
           growth and utilizes my skills & knowledge to work for the growth of
-          the organization.
+          the organization. Dedicated to continuously enhancing my skills and
+          knowledge, and I'm enthusiastic about contributing to my team's
+          success while pursuing new challenges.
         </h2>
         <a href="/resp.pdf" className="downloadBtn">
           Download CV
         </a>
       </Grid>
-      {/* <CustomTimeline /> */}
+      <CustomTimeline />
     </Grid>
   );
 }
+

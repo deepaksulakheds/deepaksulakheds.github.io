@@ -14,7 +14,7 @@ export function CardComp(props) {
         "border-radius": "8px",
         color: "White",
         maxWidth: 380,
-        minWidth: "200px",
+        minWidth: "300px",
         width: "25vw",
         height: "10%",
         background: "rgba(255, 255, 255, 0.35)",
