@@ -11,6 +11,12 @@ export function Projects(props) {
       path: "https://github.com/deepaksulakheds/Zeliot_Telematic_Project",
     },
     {
+      title: "Dashboard - Zeliot Analytics",
+      techUsed: "React JS, MUI, HTML, CSS, ",
+      image: "/dashboard-1.png",
+      path: "https://github.com/deepaksulakheds/Zeliot-Analytics-Dashboard",
+    },
+    {
       title: "Face Recognition using LBPH",
       techUsed: "Python, OpenCV, Haar-Cascade Classifier, LBPH Algorithm",
       image: "/faceRecog-1.jpeg",
