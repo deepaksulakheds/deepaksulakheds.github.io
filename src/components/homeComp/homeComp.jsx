@@ -43,13 +43,11 @@ export function HomeComp() {
           </div>
         </div>
         <h2 className="about">
-          Seeking an entry level position in an organization that offers good
-          growth and utilizes my skills & knowledge to work for the growth of
-          the organization. Dedicated to continuously enhancing my skills and
-          knowledge, and I'm enthusiastic about contributing to my team's
-          success while pursuing new challenges.
+          To be a part of an organization that provides ample opportunities for
+          professional and personal growth, where I can use my skills for the
+          success of the organization with continuous learning and dedication.
         </h2>
-        <a href="/resp.pdf" className="downloadBtn">
+        <a href="resp.pdf" className="downloadBtn">
           Download CV
         </a>
       </Grid>
@@ -57,4 +55,3 @@ export function HomeComp() {
     </Grid>
   );
 }
-

@@ -11,16 +11,15 @@ export function CardComp(props) {
   return (
     <Card
       sx={{
-        "border-radius": "8px",
+        borderRadius: "8px",
         color: "White",
         maxWidth: 380,
         minWidth: "300px",
         width: "25vw",
         height: "10%",
         background: "rgba(255, 255, 255, 0.35)",
-        "-webkit-backdrop-filter": "blur(8px)",
-        "backdrop-filter": "blur(8px)",
-        // border: "2px solid rgba(224, 221, 221, 0.753)",
+        WebkitBackdropFilter: "blur(8px)",
+        backdropFilter: "blur(8px)",
       }}
     >
       <CardActionArea href={props.projData.path} className="cardAction">

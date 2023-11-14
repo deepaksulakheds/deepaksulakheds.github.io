@@ -1,5 +1,11 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url("http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin");
+}
+
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Ubuntu;
   line-height: 1.5;
   font-weight: 400;
 

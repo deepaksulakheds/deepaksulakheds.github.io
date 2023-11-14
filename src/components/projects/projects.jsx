@@ -20,7 +20,7 @@ export function Projects(props) {
       title: "Face Recognition using LBPH",
       techUsed: "Python, OpenCV, Haar-Cascade Classifier, LBPH Algorithm",
       image: "/faceRecog-1.jpeg",
-      path: "#",
+      path: "https://github.com/deepaksulakheds/Face-Recognition-using-LBPH",
     },
     {
       title: "Rice Mill Management System",

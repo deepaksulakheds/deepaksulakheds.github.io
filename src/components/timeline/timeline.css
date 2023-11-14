@@ -1,3 +1,9 @@
 .timeLine {
   margin-top: 10vh;
 }
+
+.experienceTimeline{
+  /* border: 2px solid white; */
+  /* offset: 2vh; */
+  border-radius: 2vh;
+}

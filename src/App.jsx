@@ -5,25 +5,26 @@ import { HomeComp } from "./components/homeComp/homeComp";
 import { MediaLinks } from "./components/mediaLinks/mediaLinks";
 import { Projects } from "./components/projects/projects";
 import { Skills } from "./components/skills/skills";
+import { ExperienceTimeline } from "./components/timeline/timeline";
 
 function App() {
   const [pageSelected, setPageSelected] = useState(0);
   const [anchorElNav, setAnchorElNav] = useState(null);
   // const [anchorElUser, setAnchorElUser] = useState(null);
 
-  const pageHandler = (index) => {
-    // console.log(index);
-    setPageSelected(index);
-    setAnchorElNav(null);
-  };
+  // const pageHandler = (index) => {
+  //   // console.log(index);
+  //   setPageSelected(index);
+  //   setAnchorElNav(null);
+  // };
 
-  const handleOpenNavMenu = (event) => {
-    setAnchorElNav(event.currentTarget);
-  };
+  // const handleOpenNavMenu = (event) => {
+  //   setAnchorElNav(event.currentTarget);
+  // };
 
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
+  // const handleCloseNavMenu = () => {
+  //   setAnchorElNav(null);
+  // };
 
   return (
     <>
@@ -38,6 +39,7 @@ function App() {
         <MediaLinks />
         <HomeComp />
       </div>
+      {/* <ExperienceTimeline /> */}
       <Skills />
       <Projects />
     </>
