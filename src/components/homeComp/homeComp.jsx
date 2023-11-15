@@ -47,7 +47,7 @@ export function HomeComp() {
           professional and personal growth, where I can use my skills for the
           success of the organization with continuous learning and dedication.
         </h2>
-        <a href="resp.pdf" className="downloadBtn">
+        <a href="Deepak-Sulakhe-Resume.pdf" className="downloadBtn">
           Download CV
         </a>
       </Grid>
