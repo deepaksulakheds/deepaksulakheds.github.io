@@ -1,11 +1,11 @@
 import "./App.css";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { HorizontalMenu } from "./components/menuBar/menuBar2";
 import { HomeComp } from "./components/homeComp/homeComp";
 import { MediaLinks } from "./components/mediaLinks/mediaLinks";
 import { Projects } from "./components/projects/projects";
 import { Skills } from "./components/skills/skills";
-import { ExperienceTimeline } from "./components/timeline/timeline";
+import { ExperienceTimeline } from "./components/experienceTimeline/experienceTimeline";
 
 function App() {
   const [pageSelected, setPageSelected] = useState(0);
@@ -26,6 +26,10 @@ function App() {
   //   setAnchorElNav(null);
   // };
 
+  useEffect(() => {
+    document.title = "Deepak Sulakhe";
+  }, []);
+
   return (
     <>
       {/* <HorizontalMenu
@@ -39,7 +43,7 @@ function App() {
         <MediaLinks />
         <HomeComp />
       </div>
-      {/* <ExperienceTimeline /> */}
+      <ExperienceTimeline />
       <Skills />
       <Projects />
     </>

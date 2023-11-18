@@ -28,10 +28,6 @@ const contactDetails = [
 ];
 
 export function HomeComp() {
-  useEffect(() => {
-    document.title = "Deepak Sulakhe";
-  }, []);
-
   return (
     <Grid className="homeContainer">
       <Grid className="midContainer">
@@ -44,7 +40,7 @@ export function HomeComp() {
         </div>
         <h2 className="about">
           To be a part of an organization that provides ample opportunities for
-          professional and personal growth, where I can use my skills for the
+          professional and personal growth, where i can use my skills for the
           success of the organization with continuous learning and dedication.
         </h2>
         <a href="Deepak-Sulakhe-Resume.pdf" className="downloadBtn">

@@ -32,7 +32,10 @@ export function Projects(props) {
 
   return (
     <>
-      <h2 className="projectTitle">Projects</h2>
+      <div className="projectTitle">
+        <img src="/projects1.png" className="projectsIcon" />
+        <h2>Projects</h2>
+      </div>
       <div className="projects">
         {projData.map((project, index) => (
           <CardComp key={index} projData={project} />

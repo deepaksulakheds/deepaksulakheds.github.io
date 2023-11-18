@@ -1,6 +1,6 @@
 import React from "react";
 import "./skills.css";
-const colors = ["#800080", "#91915f", "#008000", "#43c1c1"];
+
 const skills = [
   {
     title: "Frontend",
@@ -16,14 +16,13 @@ const skills = [
     title: "Backend",
     list: [
       { content: "C/C++", icon: "/c.png" },
-      { content: "Java", icon: "/java.png" },
       { content: "JavaScript", icon: "/javascript.png" },
       { content: "Node JS", icon: "/nodejs.png" },
-      { content: "GraphQL", icon: "/graphql.png" },
       { content: "Python", icon: "/python.png" },
+      { content: "GraphQL", icon: "/graphql.png" },
+      { content: "Java", icon: "/java.png" },
     ],
   },
-
   {
     title: "Database",
     list: [
@@ -45,7 +44,10 @@ const skills = [
 export function Skills(props) {
   return (
     <>
-      <h2 className="skillsTitle">Skills</h2>
+      <div className="skillsTitle">
+        <img className="skillsIcon" src="/star1.png" />
+        <h2>Skills</h2>
+      </div>
       <div className="skillContainer">
         {skills.map((skill, index) => (
           <div key={index} className="subSkill">

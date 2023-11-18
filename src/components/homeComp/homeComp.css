@@ -81,8 +81,8 @@
 }
 
 .downloadBtn {
-  color: aqua;
-  outline: 2px solid aqua;
+  color: white;
+  outline: 2px solid white;
   padding: 0.8vh 2vh 0.8vh 2vh;
   text-wrap: auto;
   border-radius: 5px;
@@ -91,7 +91,10 @@
   font-weight: bold;
 }
 
+/* 00ffff */
+
 .downloadBtn:hover {
+  outline: 2px solid aqua;
   background-color: aqua;
   color: black;
 }

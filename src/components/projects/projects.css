@@ -1,13 +1,22 @@
 .projects {
   width: 70vw;
   gap: 3vh;
-  margin-left: 8vw;
+  margin-left: 9vw;
   display: flex;
   flex-wrap: wrap;
 }
 
 .projectTitle {
+  margin-top: 60px;
   margin-left: 8vw;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  color: aqua;
+}
+
+.projectsIcon {
+  margin-right: 20px;
 }
 
 .cardAction:hover {
