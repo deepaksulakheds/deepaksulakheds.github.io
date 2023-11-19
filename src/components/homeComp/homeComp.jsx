@@ -38,11 +38,11 @@ export function HomeComp() {
             <h3 className="jobTitle">Software Engineer 1</h3>
           </div>
         </div>
-        <h2 className="about">
+        <h3 className="about">
           To be a part of an organization that provides ample opportunities for
           professional and personal growth, where i can use my skills for the
           success of the organization with continuous learning and dedication.
-        </h2>
+        </h3>
         <a href="Deepak-Sulakhe-Resume.pdf" className="downloadBtn">
           Download CV
         </a>
