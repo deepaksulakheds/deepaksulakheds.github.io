@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700,bold&display=swap");
 
 :root {
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   line-height: 1.5;
   font-weight: 400;
 
@@ -27,6 +27,7 @@ a:hover {
 
 body {
   min-width: 800px;
+  background-color: #1c1b22;
 }
 
 h1 {
@@ -53,7 +54,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -64,4 +65,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
