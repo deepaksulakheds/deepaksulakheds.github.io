@@ -15,7 +15,7 @@ export function CardComp(props) {
         color: "White",
         maxWidth: 380,
         minWidth: "300px",
-        width: "25vw",
+        width: "20vw",
         height: "10%",
         background: "rgba(255, 255, 255, 0.35)",
         WebkitBackdropFilter: "blur(8px)",

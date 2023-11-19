@@ -49,10 +49,10 @@ export function ExperienceTimeline() {
             </TimelineSeparator>
             <TimelineContent style={{ fontFamily: "Ubuntu", width: "100%" }}>
               <div className="timelineItem">
-                <h2 className="timelineTitle">{expertience.title}</h2>
-                <h3 className="timelineCompanyTitle">
+                <h3 className="timelineTitle">{expertience.title}</h3>
+                <h4 className="timelineCompanyTitle">
                   - {expertience.companyTitle}
-                </h3>
+                </h4>
               </div>
             </TimelineContent>
           </TimelineItem>
