@@ -5,21 +5,21 @@ const skills = [
   {
     title: "Frontend",
     list: [
+      { content: "React JS", icon: "/react.png" },
+      { content: "MUI", icon: "/mui.png" },
+      { content: "Bootstrap", icon: "/bootstrap.png" },
       { content: "HTML", icon: "/html.png" },
       { content: "CSS", icon: "/CSS.png" },
-      { content: "Bootstrap", icon: "/bootstrap.png" },
-      { content: "React", icon: "/react.png" },
-      { content: "MUI", icon: "/mui.png" },
     ],
   },
   {
     title: "Backend",
     list: [
-      { content: "C/C++", icon: "/c.png" },
-      { content: "JavaScript", icon: "/javascript.png" },
       { content: "Node JS", icon: "/nodejs.png" },
+      { content: "JavaScript", icon: "/javascript.png" },
       { content: "Python", icon: "/python.png" },
       { content: "GraphQL", icon: "/graphql.png" },
+      { content: "C/C++", icon: "/c.png" },
       { content: "Java", icon: "/java.png" },
     ],
   },

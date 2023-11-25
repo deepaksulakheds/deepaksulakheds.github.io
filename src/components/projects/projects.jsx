@@ -12,7 +12,7 @@ export function Projects(props) {
     },
     {
       title: "Dashboard - Zeliot Analytics",
-      techUsed: "React JS, MUI, HTML, CSS, ",
+      techUsed: "React JS, Node JS, Apollo-Server, MUI, HTML, CSS, ",
       image: "/dashboard-1.png",
       path: "https://github.com/deepaksulakheds/Zeliot-Analytics-Dashboard",
     },

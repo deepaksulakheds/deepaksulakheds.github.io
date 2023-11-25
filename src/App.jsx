@@ -6,10 +6,12 @@ import { MediaLinks } from "./components/mediaLinks/mediaLinks";
 import { Projects } from "./components/projects/projects";
 import { Skills } from "./components/skills/skills";
 import { ExperienceTimeline } from "./components/experienceTimeline/experienceTimeline";
+import { Loader } from "./components/loader/loader";
 
 function App() {
   const [pageSelected, setPageSelected] = useState(0);
   const [anchorElNav, setAnchorElNav] = useState(null);
+  const [loader, setLoader] = useState(true);
   // const [anchorElUser, setAnchorElUser] = useState(null);
 
   // const pageHandler = (index) => {
@@ -28,24 +30,27 @@ function App() {
 
   useEffect(() => {
     document.title = "Deepak Sulakhe";
+    setTimeout(async () => {
+      console.log("Timed Out");
+      setLoader(false);
+    }, 2500);
   }, []);
 
   return (
     <>
-      {/* <HorizontalMenu
-        pageHandler={pageHandler}
-        handleOpenNavMenu={handleOpenNavMenu}
-        handleCloseNavMenu={handleCloseNavMenu}
-        anchorElNav={anchorElNav}
-        // anchorElUser={anchorElUser}
-      /> */}
-      <div className="container">
-        <MediaLinks />
-        <HomeComp />
-      </div>
-      <ExperienceTimeline />
-      <Skills />
-      <Projects />
+      {loader ? (
+        <Loader />
+      ) : (
+        <>
+          <div className="container">
+            <MediaLinks />
+            <HomeComp />
+          </div>
+          <ExperienceTimeline />
+          <Skills />
+          <Projects />
+        </>
+      )}
     </>
   );
 }
