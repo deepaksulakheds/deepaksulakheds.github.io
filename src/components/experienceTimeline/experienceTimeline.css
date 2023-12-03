@@ -2,21 +2,24 @@
   padding: 1.5vh;
   outline: 1.5px solid white;
   border-radius: 1vh;
-  width: 20vw;
+  width: 250px;
+  margin: 10px;
   min-width: 150px;
   background: rgba(255, 255, 255, 0.15);
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.075);
+  text-wrap: nowrap;
 }
 
 .timelineTitle {
   margin: 0;
+  font-size: large;
 }
 
 .timelineCompanyTitle {
-  text-indent: 1vw;
   margin: 0;
+  margin-left: 11vw;
 }
 
 .experienceTitle {
@@ -28,4 +31,8 @@
 
 .experienceIcon {
   margin-right: 20px;
+}
+
+.experienceContainer {
+  margin-top: 2vh;
 }

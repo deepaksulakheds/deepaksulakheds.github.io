@@ -91,8 +91,6 @@
   font-weight: bold;
 }
 
-/* 00ffff */
-
 .downloadBtn:hover {
   outline: 2px solid aqua;
   background-color: aqua;

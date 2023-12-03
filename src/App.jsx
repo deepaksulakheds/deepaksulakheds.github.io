@@ -5,8 +5,8 @@ import { HomeComp } from "./components/homeComp/homeComp";
 import { MediaLinks } from "./components/mediaLinks/mediaLinks";
 import { Projects } from "./components/projects/projects";
 import { Skills } from "./components/skills/skills";
-import { ExperienceTimeline } from "./components/experienceTimeline/experienceTimeline";
 import { Loader } from "./components/loader/loader";
+import { ExperienceTimeline } from "./components/experienceTimeline/experienceTimeline";
 
 function App() {
   const [pageSelected, setPageSelected] = useState(0);
@@ -31,7 +31,6 @@ function App() {
   useEffect(() => {
     document.title = "Deepak Sulakhe";
     setTimeout(async () => {
-      console.log("Timed Out");
       setLoader(false);
     }, 2500);
   }, []);

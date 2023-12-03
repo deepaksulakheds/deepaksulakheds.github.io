@@ -25,7 +25,7 @@ export function CardComp(props) {
       <CardActionArea href={props.projData.path} className="cardAction">
         <CardMedia
           component="img"
-          height="160"
+          height="150"
           image={props.projData.image}
           alt="project image"
         />
