@@ -15,7 +15,7 @@ export function CardComp(props) {
         color: "White",
         maxWidth: 380,
         minWidth: "300px",
-        width: "20vw",
+        width: "22vw",
         height: "10%",
         background: "rgba(255, 255, 255, 0.35)",
         WebkitBackdropFilter: "blur(8px)",
@@ -25,11 +25,11 @@ export function CardComp(props) {
       <CardActionArea href={props.projData.path} className="cardAction">
         <CardMedia
           component="img"
-          height="180"
+          height="160"
           image={props.projData.image}
           alt="project image"
         />
-        <CardContent style={{ padding: "10px" }}>
+        <CardContent style={{ padding: "9px", height: "100%" }}>
           <Typography gutterBottom variant="h6" component="div">
             {props.projData.title}
           </Typography>
