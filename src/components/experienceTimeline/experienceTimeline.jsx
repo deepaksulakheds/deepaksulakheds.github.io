@@ -44,13 +44,7 @@ export function ExperienceTimeline() {
                 </TimelineSeparator>
                 <div className="timelineItem">
                   <p className="timelineTitle">{titles.title}</p>
-                  <p
-                    style={{
-                      margin: "0",
-                      textIndent: "15px",
-                      fontSize: "14px",
-                    }}
-                  >
+                  <p style={{ margin: 0, textIndent: "12px" }}>
                     - {titles.duration}
                   </p>
                 </div>
