@@ -34,7 +34,7 @@
 }
 
 .skill {
-  outline: 1px solid lightgray;
+  /* outline: 1px solid lightgray; */
   padding: 7px;
   display: flex;
   margin: 0;
@@ -58,4 +58,5 @@
 
 .skillContent {
   margin: auto;
+  font-size: larger;
 }

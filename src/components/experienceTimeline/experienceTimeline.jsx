@@ -36,7 +36,7 @@ export function ExperienceTimeline() {
             {experience.titles.map((titles) => (
               <div
                 key={titles.title}
-                style={{ display: "flex", marginLeft: "12vw" }}
+                style={{ display: "flex", marginLeft: "12.5vw" }}
               >
                 <TimelineSeparator>
                   <TimelineDot />

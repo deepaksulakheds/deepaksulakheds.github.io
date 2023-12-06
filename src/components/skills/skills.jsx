@@ -52,7 +52,7 @@ export function Skills(props) {
         {skills.map((skill, index) => (
           <div key={index} className="subSkill">
             <h2 style={{ margin: "0 0 8px 0", color: "white" }}>
-              {skill.title}{" "}
+              <u>{skill.title}</u>{" "}
             </h2>
             <div className="skillList">
               {skill.list.map((s) => (
