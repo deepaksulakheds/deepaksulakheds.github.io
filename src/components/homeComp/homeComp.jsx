@@ -10,7 +10,7 @@ export function HomeComp() {
         <div className="titleCard">
           <img src="/deepak-nobg.png" alt="profile" className="profileImage" />
           <div className="nameNDesc">
-            <span className="colorName">Deepak Sulakhe</span>
+            <div className="colorName">Deepak Sulakhe</div>
             <h3 className="jobTitle">Software Engineer 1</h3>
           </div>
         </div>

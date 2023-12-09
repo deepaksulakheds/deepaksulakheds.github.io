@@ -7,7 +7,7 @@ export function Projects(props) {
     {
       title: "Telematic Analytics - Zeliot",
       techUsed: "JavaScript, NodeJS, React JS, GraphQL, ApolloServer",
-      image: "/telematics-1.png",
+      image: "/fleet.jpg",
       path: "https://github.com/deepaksulakheds/Zeliot_Telematic_Project",
     },
     {
@@ -19,7 +19,7 @@ export function Projects(props) {
     {
       title: "Face Recognition using LBPH",
       techUsed: "Python, OpenCV, Haar-Cascade Classifier, LBPH Algorithm",
-      image: "/faceRecog-1.jpeg",
+      image: "/face-rec.jpg",
       path: "https://github.com/deepaksulakheds/Face-Recognition-using-LBPH",
     },
     {

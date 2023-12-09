@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #1c1b22;
+  background-color: #101722a9;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,7 +27,7 @@ a:hover {
 
 body {
   min-width: 800px;
-  background-color: #1c1b22;
+  background-color: #101722a9;
 }
 
 h1 {

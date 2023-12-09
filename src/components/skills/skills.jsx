@@ -6,10 +6,10 @@ const skills = [
     title: "Frontend",
     list: [
       { content: "React JS", icon: "/react.png" },
-      { content: "MUI", icon: "/mui.png" },
-      { content: "Bootstrap", icon: "/bootstrap.png" },
+      { content: "Material UI", icon: "/mui.png" },
       { content: "HTML", icon: "/html.png" },
       { content: "CSS", icon: "/CSS.png" },
+      { content: "Bootstrap", icon: "/bootstrap.png" },
     ],
   },
   {
@@ -51,8 +51,16 @@ export function Skills(props) {
       <div className="skillContainer">
         {skills.map((skill, index) => (
           <div key={index} className="subSkill">
-            <h2 style={{ margin: "0 0 8px 0", color: "white" }}>
-              <u>{skill.title}</u>{" "}
+            <h2
+              style={{
+                margin: "0 0 8px 0",
+                color: "white",
+                textDecoration: "underline",
+                textUnderlineOffset: "5px",
+                textDecorationThickness: "0.1px",
+              }}
+            >
+              {skill.title}
             </h2>
             <div className="skillList">
               {skill.list.map((s) => (

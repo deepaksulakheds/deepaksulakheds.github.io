@@ -15,8 +15,9 @@
 }
 
 .icons:hover {
-  background-color: aqua;
-  color: black;
-  outline: aqua;
+  outline: 3px solid aqua;
+  color: aqua;
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px aqua;
   transition: all ease-in-out 0.2s;
 }
