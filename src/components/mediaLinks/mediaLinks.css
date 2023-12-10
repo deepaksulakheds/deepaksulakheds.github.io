@@ -7,16 +7,17 @@
 }
 
 .icons {
-  color: white;
+  color: aqua;
   padding: 1.2vh;
   border-radius: 50%;
-  outline: 3px solid white;
+  outline: 3px solid aqua;
   transition: all ease-in-out 0.2s;
 }
 
 .icons:hover {
   outline: 3px solid aqua;
-  color: aqua;
+  color: black;
+  background-color: aqua;
   cursor: pointer;
   box-shadow: 0 0 5px 5px aqua;
   transition: all ease-in-out 0.2s;

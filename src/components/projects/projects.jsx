@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import { CardComp } from "./muiCard";
+import { PopupCard } from "./popupCard";
 
 export function Projects(props) {
   const projData = [
@@ -37,9 +38,10 @@ export function Projects(props) {
         <h2>Projects</h2>
       </div>
       <div className="projects">
-        {projData.map((project, index) => (
+        {/* {projData.map((project, index) => (
           <CardComp key={index} projData={project} />
-        ))}
+        ))} */}
+        <PopupCard />
       </div>
     </>
   );

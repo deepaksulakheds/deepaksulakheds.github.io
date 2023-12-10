@@ -1,6 +1,5 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
-import { HorizontalMenu } from "./components/menuBar/menuBar2";
 import { HomeComp } from "./components/homeComp/homeComp";
 import { MediaLinks } from "./components/mediaLinks/mediaLinks";
 import { Projects } from "./components/projects/projects";

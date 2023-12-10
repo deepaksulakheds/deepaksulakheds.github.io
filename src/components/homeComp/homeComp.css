@@ -78,18 +78,19 @@
 }
 
 .downloadBtn {
-  color: rgba(255, 255, 255, 0.6);
-  border: 2px solid rgba(255, 255, 255, 0.6);
+  color: aqua;
+  border: 2px solid aqua;
   padding: 0.8vh 2vh 0.8vh 2vh;
   text-wrap: auto;
   border-radius: 10px;
-  transition: all ease-in-out 0.2s;
+  transition: all 0.2s ease-in-out;
   margin-left: 4vw;
   font-weight: bold;
 }
 
 .downloadBtn:hover {
   border: 2px solid aqua;
-  color: white;
+  background-color: aqua;
+  color: black;
   box-shadow: 0 0 3px 3px aqua;
 }
