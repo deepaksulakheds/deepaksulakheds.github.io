@@ -7,12 +7,12 @@
 
 .card-container {
   background-size: contain;
-  min-height: 250px;
+  min-height: 230px;
   max-width: 380px;
   min-width: 320px;
-  width: 24vw;
+  width: 22vw;
   padding: 1vh;
-  height: 25vh;
+  height: 23vh;
   position: relative;
   border-radius: 10px;
   overflow: hidden;
