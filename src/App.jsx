@@ -6,6 +6,7 @@ import { Projects } from "./components/projects/projects";
 import { Skills } from "./components/skills/skills";
 import { Loader } from "./components/loader/loader";
 import { ExperienceTimeline } from "./components/experienceTimeline/experienceTimeline";
+import Backdrop from "@mui/material/Backdrop";
 
 function App() {
   const [pageSelected, setPageSelected] = useState(0);
@@ -37,7 +38,9 @@ function App() {
   return (
     <>
       {loader ? (
-        <Loader />
+        <Backdrop open={true} sx={{ backgroundColor: " #101722a9" }}>
+          <Loader />
+        </Backdrop>
       ) : (
         <>
           <div className="container">
