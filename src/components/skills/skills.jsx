@@ -5,38 +5,38 @@ const skills = [
   {
     title: "Frontend",
     list: [
-      { content: "React JS", icon: "/react.png" },
-      { content: "Material UI", icon: "/mui.png" },
-      { content: "HTML", icon: "/html.png" },
-      { content: "CSS", icon: "/CSS.png" },
-      { content: "Bootstrap", icon: "/bootstrap.png" },
+      { content: "React JS", icon: "/react.svg" },
+      { content: "Material UI", icon: "/mui.svg" },
+      { content: "HTML", icon: "/html.svg" },
+      { content: "CSS", icon: "/css.svg" },
+      { content: "Bootstrap", icon: "/bootstrap.svg" },
     ],
   },
   {
     title: "Backend",
     list: [
-      { content: "Node JS", icon: "/nodejs.png" },
-      { content: "JavaScript", icon: "/javascript.png" },
-      { content: "Python", icon: "/python.png" },
-      { content: "GraphQL", icon: "/graphql.png" },
-      { content: "C/C++", icon: "/c.png" },
-      { content: "Java", icon: "/java.png" },
+      { content: "Node JS", icon: "/nodejs.svg" },
+      { content: "JavaScript", icon: "/javascript.svg" },
+      { content: "Python", icon: "/python.svg" },
+      { content: "GraphQL", icon: "/graphql.svg" },
+      { content: "C/C++", icon: "/cpp.svg" },
+      { content: "Java", icon: "/java.svg" },
     ],
   },
   {
     title: "Database",
     list: [
-      { content: "MySQL", icon: "/mysql.png" },
-      { content: "MongoDB", icon: "/mongoDB.png" },
-      { content: "PostgresSQL", icon: "/postgresql.png" },
-      { content: "Redis", icon: "/redis.png" },
+      { content: "MySQL", icon: "/mysql.svg" },
+      { content: "MongoDB", icon: "/mongodb.svg" },
+      { content: "PostgresSQL", icon: "/pgsql.svg" },
+      { content: "Redis", icon: "/redis.svg" },
     ],
   },
   {
     title: "Others",
     list: [
-      { content: "Git & Github", icon: "/git.png" },
-      { content: "ApolloServer", icon: "/apollo.png" },
+      { content: "Git & Github", icon: "/git.svg" },
+      { content: "ApolloServer", icon: "/apollo.svg" },
     ],
   },
 ];
@@ -45,7 +45,7 @@ export function Skills(props) {
   return (
     <>
       <div className="skillsTitle">
-        <img className="skillsIcon" src="/star1.png" />
+        <img className="skillsIcon" src="/star.svg" />
         <h2>Skills</h2>
       </div>
       <div className="skillContainer">

@@ -14,7 +14,7 @@ export function Projects(props) {
     {
       title: "Dashboard - Zeliot Analytics",
       techUsed: "React JS, Node JS, Apollo-Server, MUI, HTML, CSS, ",
-      image: "/dashboard-1.png",
+      image: "/dashboard2.png",
       path: "https://github.com/deepaksulakheds/Zeliot-Analytics-Dashboard",
     },
     {
@@ -34,7 +34,7 @@ export function Projects(props) {
   return (
     <>
       <div className="projectTitle">
-        <img src="/projects1.png" className="projectsIcon" />
+        <img src="/projects.svg" className="projectsIcon" />
         <h2>Projects</h2>
       </div>
       <div className="projects">

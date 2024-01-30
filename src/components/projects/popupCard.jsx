@@ -29,7 +29,7 @@ const projData = [
     desc: "Simple website that helps to automate the day-today operations of a rice mill.",
     techUsed: "HTML, CSS, PHP, Bootstrap 5, WAMP",
     image: "/riceMill.jpeg",
-    path: "#",
+    path: null,
   },
 ];
 
@@ -41,7 +41,9 @@ export function PopupCard(props) {
           key={project.title}
           style={{
             background: `url(${project.image})`,
-            backgroundSize: "cover",
+            backgroundSize: "100% 100%",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
           }}
           className="card-container"
         >

@@ -24,7 +24,7 @@ export function ExperienceTimeline() {
   return (
     <>
       <div className="experienceTitle">
-        <img src="/experience.png" className="experienceIcon" />
+        <img src="/experience.svg" className="experienceIcon" />
         <h2>Professional Experience</h2>
       </div>
       <div>
